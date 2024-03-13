@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Christianson</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fredoka:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container figtree-font">
+
+        <!-- HEADER -->
+        <header class="header">
+            <a href="index.html" id="logo">Alexander Christianson <span>Portfolio</span></a>
+
+            <a href="#" id="cv">Download CV</a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Projects.html" class="active">Projects</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- MAIN -->
+        <main class="main">
+            <h2>Some recent Projects</h2>
+
+            <div class="card">
+                <img class="card-image" src=API.jpg alt="" />
+                <h2 class="card-header">Music API <a href="#" class="github_button">
+                        <i class="github-button fa-brands fa-github"></i></a></h2>
+
+                <a href="#music-modal">
+                    <button class="card-button">Click here for more information!</button>
+                </a>
+            </div>
+
+            <div class="card">
+                <img class="card-image" src=minimalApi.jpg alt="" />
+                <h2 class="card-header">Minimal API <a href="#" class="github_button"><i
+                            class="github-button fa-brands fa-github"></i></a></h2>
+
+                <a href="#api-modal">
+                    <button class="card-button">Click here for more information!</button>
+                </a>
+
+            </div>
+
+            <div class="card">
+                <img class="card-image" src=school-database.jpg alt="" />
+                <h2 class="card-header">School database <a href="#" class="github_button"><i
+                            class="github-button fa-brands fa-github"></i></a></h2>
+                <a href="#ado-modal">
+                    <button class="card-button">Click here for more information!</button>
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <nav>
+                <a href="#">
+                    <h2 class="goBack">Take me to the top <i class="fa-solid fa-arrow-up"></i></h2>
+                </a>
+            </nav>
+            <p>Copyright © 2024 Alexander Christianson. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <div id="music-modal" class="modal">
+        <div class="modal-content">
+            <a href="#close" class="close">&times;</a>
+            <p class="card-text">
+                A group project involves developing an API that interacts with an external music API,
+                collecting
+                data on music tracks and artists. This information is then utilized to compare users' likes and
+                dislikes
+            </p>
+        </div> 
+    </div>
+    
+    <div id="api-modal" class="modal">
+        <div class="modal-content">
+            <a href="#close" class="close">&times;</a>
+            <p class="card-text">
+                This minimal API project allows users to submit their information and their interests.
+                Users can write about their interests, connect to existing interests, and add web links
+                related to their interests. It's a straightforward tool designed for learning and
+                experimentation.
+            </p>
+        </div>
+    </div>
+
+    <div id="ado-modal" class="modal">
+        <div class="modal-content">
+            <a href="#close" class="close">&times;</a>
+            <p class="card-text">
+                This project, developed in C# with SQL and ADO, manages a rudimentary school database. Users
+                are
+                presented with a menu offering various functionalities, such as adding new students or staff
+                members, printing lists of students and classes, retrieving staff information, and
+                generating
+                reports on recent grades for specific courses or calculating average grades per course. It
+                serves as a basic yet functional tool for organizing school-related data.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
