@@ -319,3 +319,30 @@ footer a img{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10px;
 }
+
+
+/* CV-sidan */
+
+.cv{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 4rem;
+    padding: 2rem;
+    border: 1px solid darkgrey;
+    width: 80%;
+}
+
+  .cv .divider {
+    border-bottom: 2px solid black;
+    width: 100%;
+  }
+
+ .cv h4{
+    font-weight:normal;
+  }
+  
+  .cv h2 {
+    align-self: center;
+  }
